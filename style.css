@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+body{
+    font-family: 'Cinzel', serif;
+    background-color: #0a0104;
+    color: white;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+
+main {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: var(--color-link-hover);
+	outline: none;
+}
+.hidden {
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+h1 {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    font-weight: normal;
+}
+.links {
+    color: rgb(105, 105, 105);
+    line-height: 1;
+    text-decoration: none;
+    margin-top: 40px;
+    animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+.screen {
+   margin-left:  40px;
+   justify-content:center;
+
+}
+.logo{
+ font-weight: 400; 
+ font-size: 1em;
+ margin: 30px;
+ margin-bottom: -10px;
+ 
+}
+
+.year{
+    margin: 2rem 0;
+    align-items: baseline;
+    line-height: 0.8rem;
+    text-align: center;
+animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+.title {
+   font-size: 1em;
+   animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+.year span{
+    margin: 0 0.25rem ;
+}
+.number {
+    font-size: 150%;
+}
+.number {
+    color: white;
+    margin-bottom: 100px;
+
+}
+.intro {
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+
+.intro-title {
+    font-size: 18vw;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+
+.intro-hint {
+    position: relative;
+    text-transform: uppercase;
+    margin: 1vh 0 0 0;
+    animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+.intro-hint::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 2rem;
+    top: calc(100% + 2rem);
+    left: 50%;
+    background-color: currentColor;
+}
+
+
+.grid-wrap {
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, calc(390px + 3rem)));
+    justify-content: center;
+    grid-gap: 10vw;
+    margin: 15rem auto;
+    }
+.grid-item {
+    padding: 1.5rem;
+}
+.grid-number {
+    display: block;
+    text-align: right;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.grid-description{
+    color: #504f4f;
+    font-family: news-gothic-std, sans-serif;
+    line-height: 1.5;
+    padding-right: 1rem;
+
+}
+
+.grid-img {
+    margin: 1rem 0 1.75rem;
+    max-width: 100%;
+    display: block;
+}
+
+.grid2{
+display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, calc(390px + 3rem)));
+    justify-content: center;
+    grid-gap: 10vw;
+    margin: 15rem auto;
+  }
+.video {
+  width: 900px;
+  height: 500px;
+  margin-left: 300px;
+}
+.video-tekst {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -300px
+}
+
+.center-img {
+
+    align-items: center;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: -500px;
+}
+.center-img3 {
+    align-items: center;
+    width: 100px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: -300px;    
+}
+.footer-links {
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    text-align: center;
+    margin-left: -10px;
+ 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 13px;
+    color:rgb(105, 105, 105);
+    margin-left: 500px;
+    font-family: arial;
+}
+
