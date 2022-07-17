@@ -275,9 +275,12 @@ display: grid;
     .center-img {
         width: 350px;
         margin-left: 10px;
+        margin-top: -300px;
+        margin-bottom: -200px;
     }
     .center-img3 img {
         width: 350px;
         margin-left: -240px;
+        margin-bottom: -200px;
     }
 }
