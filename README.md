@@ -1,2 +1,3 @@
-# 8-moedige-vrouwen
-![image](https://user-images.githubusercontent.com/69724530/130484808-2af07064-9f8c-4d61-a416-c86f9e623b8c.png)
+# 8 moedige vrouwen
+![image](https://user-images.githubusercontent.com/69724530/179395060-f72297ba-0cea-4568-abcd-1b05753547d5.png)
+
