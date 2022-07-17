@@ -257,4 +257,27 @@ display: grid;
     margin-left: 500px;
     font-family: arial;
 }
-
+/* Media queries */
+@media (max-width: 480px) {
+    .intro1{
+        margin-top: 220px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .intro-hint {
+        max-width: 350px;
+        text-align: center;
+    }
+    .grid {
+        margin-top: 400px;
+    }
+    .center-img {
+        width: 350px;
+        margin-left: 10px;
+    }
+    .center-img3 img {
+        width: 350px;
+        margin-left: -240px;
+    }
+}
